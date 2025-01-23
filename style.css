@@ -43,8 +43,7 @@
 
 .section-conhecimentos {
     height: 40vh;
-    width: 100vw;
-    
+    max-width: 100%;
     display: flex;
     background-color: #161616;
     color: #fff;
@@ -52,11 +51,11 @@
 }
 
 .knowledge img {
-    width: 10%;
+    width: 60px;
+    height: 60px; /* Defina uma altura fixa */
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     border-radius: 50%;
-
 }
 
 .knowledge {
