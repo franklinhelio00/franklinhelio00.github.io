@@ -1,0 +1,150 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-image {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.btn-github {
+    background: none;
+    border: 4px solid #CC3232;
+    color: #CC3232;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    top: 322px;
+    left: 922px;
+    gap: 0px;
+    border-radius: 19px 0px 0px 0px;
+    border: 4px 0px 0px 0px;
+    opacity: 0px;
+
+
+}
+
+.btn-github:hover {
+    background-color: #000;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.section-conhecimentos {
+    height: 40vh;
+    display: flex;
+    background-color: #161616;
+    color: #fff;
+
+}
+
+.knowledge img {
+    width: 20%;
+    margin-right: 0.5rem;
+
+}
+
+.knowledge {
+    text-align: left;
+}
+
+.knowledge span {
+    color: #707070;
+    font-weight: 300;
+}
+
+.knowledge p {
+    font-weight: 1.2rem;
+}
+
+.spacing {
+    margin-top: 5rem !important;
+    margin-bottom: 5rem !important;
+}
+
+.section-sobremin {
+    background-color: #222222;
+    color: #fff;
+    font-weight: 500;
+}
+
+.tittle-developer {
+    color: #CC3232;
+}
+
+.text-sobremim {
+    color: #707070;
+}
+
+.class-skills {
+    color: #fff;
+}
+
+.progress-color {
+    background-color: #CC3232 !important;
+}
+
+.section-contact {
+    background-color: #161616;
+    color: #fff;
+}
+
+.icon-contact p {
+    color : #707070;
+    font-weight: 300;
+    margin: 0;
+}
+
+.icon-contact img {
+    width: 50px;
+    margin-right: 1rem;
+}
+
+.icon-contact {
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+.form-contact  input {
+    width: 100%;
+    border: 1px solid #707070;
+    background: none;
+    border-radius: 10px;
+    padding: 0.4rem 0.8rem;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.form-contact textarea {
+    width: 100%;
+    border: 1px solid #707070;
+    background: none;
+    border-radius: 10px;
+    padding: 0.4rem 0.8rem;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.form-contact button {
+    width: 100%;
+    background-color: #CC3232;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px;
+    color: #fff;
+    
+}
