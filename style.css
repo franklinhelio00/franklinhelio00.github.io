@@ -44,6 +44,9 @@
 .section-conhecimentos {
     height: 40vh;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #161616;
     color: #fff;
 
