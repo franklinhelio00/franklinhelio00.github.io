@@ -42,20 +42,19 @@
 }
 
 .section-conhecimentos {
-    height: 40vh;
-    max-width: 100%;
-    display: flex;
     background-color: #161616;
-    color: #fff;
+    color: white;
 
 }
 
 .knowledge img {
-    width: 60px;
-    height: 60px; /* Defina uma altura fixa */
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
-    border-radius: 50%;
+    width: 20%;
+    margin-right: .5rem;
+}
+
+.knowledge img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .knowledge {
